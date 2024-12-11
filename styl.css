@@ -1,0 +1,88 @@
+body {
+	background-image: url(backg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+    font-family: serif;
+}
+input[type="checkbox"] {
+	display: none;
+}
+h1{
+	margin-left: 40%;
+margin-top: -100px;
+}
+.logom {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+.logo {
+	height: 200px;
+	
+}
+.breakfast{
+	text-align: center;
+	margin-left: 250px;
+    margin-right: 250px;
+	background-image: url(photo_2024-12-10_19-31-28.jpg);
+	background-size: 100%;
+	background-position-y: 60%;
+    background-color: rgb(234, 245, 241);
+    height: 300px;
+	border-radius: 20px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.breakfast:hover  {
+	transform: scale(1.1)
+}
+h2{
+	padding-top: 30px;
+}
+label {
+	width: 80px;
+	display: inline-block;
+	cursor: pointer;
+	color: #555;
+	padding: 10px;
+	margin: 3px;
+    text-align: center;
+	border-radius: 20px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+#wight {
+	width: 80px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+	border: #ffffff;
+}
+.imagg{
+    display:inline-block;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+	margin-right: 100px;
+	border-radius: 5px;
+}
+.imagg:hover{
+	transform: scale(3);
+}
+
+input[type="checkbox"]:checked + label {
+	color: #ffffff;
+	font-weight: bold;
+    background: #3ca3ee;
+}
+
+/*input[type="checkbox"]:checked + label[for=egg] {
+	color: #ffffff;
+	font-weight: bold;
+    background: #3ca3ee;
+}
+
+input[type="checkbox"]:checked + label[for=tomato] {
+	color: #ffffff;
+	font-weight: bold;
+    background:#3ca3ee;}*/
